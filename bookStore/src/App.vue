@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+  <Header/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Header from './Header';
+import BookList from './components/BookList';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    Header,
+    BookList,
   },
 };
 </script>
@@ -23,6 +24,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
