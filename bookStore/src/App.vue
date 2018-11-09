@@ -1,6 +1,7 @@
 <template>
   <div id="app">
   <Header/>
+  <BookList/>
   </div>
 </template>
 
