@@ -11,10 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-<<<<<<< HEAD
     "material-design-icons-iconfont": "^4.0.2",
-=======
->>>>>>> a4978bb8585b90fb3b5e97925aa9c49935067b05
     "vue": "^2.5.2",
     "vuetify": "^1.3.5"
   },
